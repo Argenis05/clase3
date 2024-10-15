@@ -1,0 +1,26 @@
+body{
+    display: flex; /* Establecer el body como un contenedor flex */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    background-color: #f0f0f0; /* Color de fondo opcional */
+}
+#container{
+display: flex;
+flex-wrap: wrap;
+width: 300px;
+height: 400px;
+min-height: 100px;
+
+
+}
+#container>div>img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    
+}
+
+#container>div{
+    width: 50%;
+    height: auto;
+}
